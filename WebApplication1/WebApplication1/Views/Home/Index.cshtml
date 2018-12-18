@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<div class="custom-index">
+    <div class="custom-wrap"> 
+    <div><h1>DTE</h1></div>
+    <div><h2>Documentación técnica especializada</h2></div>    
+    </div>
+</div>
+
+<div class="custom-content">
+
+<div id="about">
+    @{Html.RenderPartial("About");}
+</div>
+
+<div id="services">
+    @{Html.RenderPartial("Services");}
+</div>
+
+<div id="contact">
+    @{Html.RenderPartial("Contact");}
+</div>
+
+</div>
